@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grupo SolarOn</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <img src="img/SolarOn.png" alt="Logo" class="logo" />
+  </header>
+
+  <main>
+    <section class="painel-controle">
+      <div class="exibicao-angulos">
+        <h2>Status dos Ângulos</h2>
+        <p>Ângulo Horizontal: <span id="horizontal">90</span>°</p>
+        <p>Ângulo Vertical: <span id="vertical">90</span>°</p>
+      </div>
+
+      <button id="botaoConectar" class="btn-primario">
+        Conectar ao Arduino
+      </button>
+
+      <div class="mensagem-status">
+        <p id="status" class="status">Aguardando conexão...</p>
+        <p id="erro" class="erro"></p>
+      </div>
+    </section>
+
+    <section class="controle-manual">
+      <h3>Controle Manual dos Motores</h3>
+      <div class="entradas-controle">
+        <div>
+          <label for="horizontalManual">Ângulo Horizontal:</label>
+          <input type="number" id="horizontalManual" min="65" max="180" value="90" />
+        </div>
+        <div>
+          <label for="verticalManual">Ângulo Vertical:</label>
+          <input type="number" id="verticalManual" min="15" max="120" value="90" />
+        </div>
+      </div>
+      <div class="botoes-manual">
+        <button id="botaoDefinirAngulos" class="btn-secundario">
+          Definir Ângulos
+        </button>
+        <button id="botaoModoAutomatico" class="btn-secundario">
+          Modo Automático
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Grupo SolarOn. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+/* Estilos Gerais */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 150px;
+}
+
+main {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  margin: 20px;
+}
+
+h2, h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.painel-controle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.exibicao-angulos {
+  font-size: 18px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.mensagem-status {
+  margin-top: 15px;
+}
+
+.status {
+  color: #4CAF50;
+}
+
+.erro {
+  color: #f44336;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+}
+
+/* Botões */
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primario {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn-primario:hover {
+  background-color: #1976D2;
+}
+
+.btn-secundario {
+  background-color: #FF9800;
+  color: white;
+}
+
+.btn-secundario:hover {
+  background-color: #F57C00;
+}
+
+/* Seção de Controle Manual */
+.controle-manual {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.entradas-controle {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.entradas-controle div {
+  text-align: left;
+}
+
+.entradas-controle input {
+  width: 70px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.botoes-manual {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
