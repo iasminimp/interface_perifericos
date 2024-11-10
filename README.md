@@ -12,6 +12,8 @@ Para rodar o projeto utilize o comando:
 python index.py
 ```
 
+* Esse projeto pode ser acessado: https://solaron.iasminmarques.com.br
+
 ## Componentes do grupo
 Iasmin Marques Pereira (@iasminimp)
 Kethlen Correia de Jesus (@kethlencorreia)
