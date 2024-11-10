@@ -11,14 +11,6 @@ Para rodar o projeto utilize o comando:
 ```
 python index.py
 ```
-ou
-```
-python fundo.py
-```
-ou 
-```
-python sol.py
-```
 
 ## Componentes do grupo
 Iasmin Marques Pereira (@iasminimp)
